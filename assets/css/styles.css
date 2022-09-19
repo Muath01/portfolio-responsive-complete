@@ -44,6 +44,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
@@ -267,6 +269,7 @@ img {
   justify-self: center;
 }
 
+
 .about__img img {
   width: 200px;
   border-radius: .5rem;
@@ -303,6 +306,9 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+.boxicons{
+  margin: 5px 5px px 5px;
+}
 
 .skills__names {
   display: flex;
@@ -320,17 +326,23 @@ img {
 }
 
 .skills__html {
-  width: 95%;
+  width: 75%;
 }
 
 .skills__css {
-  width: 85%;
+  width: 70%;
 }
 
 .skills__js {
-  width: 65%;
+  width: 80%;
 }
 
+.skills__git{
+  width: 70%;
+}
+.skills__bootstrap{
+  width: 70%;
+}
 .skills__ux {
   width: 85%;
 }

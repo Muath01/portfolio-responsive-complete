@@ -1,3 +1,11 @@
+const submitBtn = document.querySelector("#submit");
+const values = document.querySelectorAll(".value-remove")
+submitBtn.addEventListener("click", ()=>{
+    for(const value of values){
+        value.value = ""
+    }
+})
+
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
