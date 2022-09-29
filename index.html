@@ -45,7 +45,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Muath</span><br> Web Designer</h1>
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Muath</span><br> Software Developer</h1>
 
                     <a href="#" class="button text-decoration-none">Contact</a>
                 </div>
@@ -62,7 +62,7 @@
                         </mask>
                         <g mask="url(#mask0)">
                             <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                            <image class="home__blob-img" id="main-img" x="50" y="60" href="./assets/img/programmer.jpg"/>
                         </g>
                     </svg>
                 </div>
@@ -74,7 +74,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="assets/img/programmer.jpg" alt="">
                     </div>
                     
                     <div>
@@ -217,56 +217,68 @@
 
                 <div class="container">
                     <div class="row g-5">
-                        <!-- Div -->
+                        <!-- Div 1 -->
                         <div class="col-sm-12 col-md-6">
                             <a href="" class="work__img">
-                                <img src="assets/img/work1.jpg" alt="">
+                                <img src="assets/img/ecommerce.png" alt="">
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-3 align-items-end d-sm-flex justify-content-sm-center mt-3">
-                            <button class="btn btn-lg btn-primary px-5 text-light" style="width: 100%;" type="button">
-                                <box-icon class="my-test" name='github' type='logo' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
-                                Github
-                            </button>
+                            <form action="https://github.com/Muath01/Ecommerce">
+                                <button class="btn btn-lg btn-primary px-5 text-light" style="width: 100%;" type="submit">
+                                    <box-icon class="my-test" name='github' type='logo' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
+                                    Github
+                                </button>
+                            </form>
                         </div>
                         <div class="col-sm-12 col-md-3 align-items-end d-sm-flex justify-content-sm-center mt-3">
-                            <button class="btn btn-lg btn-primary px-5 text-light" style="width: 100%;" type="button">
-                                <box-icon name='tv' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
-                                Live</button>
+                            <form action="../ecommerce/">
+                                <button class="btn btn-lg btn-primary px-5 text-light text-light" type="submit" style="width: 100%;" type="button">
+                                    <box-icon name='tv' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
+                                    Live</button>
+                                </form>
                         </div>
-                        <!-- Div -->
+                        <!-- Div 2 -->
                         <div class="col-sm-12 col-md-6">
                             <a href="" class="work__img">
-                                <img src="assets/img/work1.jpg" alt="">
+                                <img src="assets/img/wordle.png" alt="">
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-3 align-items-end d-sm-flex justify-content-sm-center mt-3" id="testme">
-                            <button class="btn btn-lg btn-primary px-5 text-light" style="width: 100%;" type="button">
-                                <box-icon name='github' type='logo' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
-                                Github
-                            </button>
+                            <form action="https://github.com/Muath01/wordle">
+                                <button class="btn btn-lg btn-primary px-5 text-light" style="width: 100%;" type="submit">
+                                    <box-icon class="my-test" name='github' type='logo' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
+                                    Github
+                                </button>
+                            </form>
                         </div>
                         <div class="col-sm-12 col-md-3 align-items-end d-sm-flex justify-content-sm-center mt-3">
-                            <button class="btn btn-lg btn-primary px-5 text-light text-light" style="width: 100%;" type="button">
-                                <box-icon name='tv' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
-                                Live</button>
+                            <form action="../../wordle/">
+                                <button class="btn btn-lg btn-primary px-5 text-light text-light" type="submit" style="width: 100%;" type="button">
+                                    <box-icon name='tv' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
+                                    Lives</button>
+                                </form>
                         </div>
                         <!-- Div -->
                         <div class="col-sm-12 col-md-6">
                             <a href="" class="work__img">
-                                <img src="assets/img/work1.jpg" alt="">
+                                <img src="assets/img/drum.png" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-3 align-items-end d-sm-flex justify-content-sm-center mt-3">
-                            <button class="btn btn-lg btn-primary px-5 text-light" style="width: 100%;" type="button">
-                                <box-icon name='github' type='logo' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
-                                Github
-                            </button>
+                        <div class="col-sm-12 col-md-3 align-items-end d-sm-flex justify-content-sm-center mt-3" id="testme">
+                            <form action="https://github.com/Muath01/wordle">
+                                <button class="btn btn-lg btn-primary px-5 text-light" style="width: 100%;" type="submit">
+                                    <box-icon class="my-test" name='github' type='logo' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
+                                    Github
+                                </button>
+                            </form>
                         </div>
                         <div class="col-sm-12 col-md-3 align-items-end d-sm-flex justify-content-sm-center mt-3">
-                            <button class="btn btn-lg btn-primary px-5 text-light" style="width: 100%;" type="button">
-                                <box-icon name='tv' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
-                                Live</button>
+                            <form action="../drumKit/">
+                                <button class="btn btn-lg btn-primary px-5 text-light text-light" type="submit" style="width: 100%;" type="button">
+                                    <box-icon name='tv' color='#fafafa' style="position: relative; top:6px;" size="2em" ></box-icon>
+                                    Live</button>
+                                </form>
                         </div>
                         
                     </div>                            

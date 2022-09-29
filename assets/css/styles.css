@@ -44,7 +44,11 @@ html {
   scroll-behavior: smooth;
 }
 
-
+#main-img{
+  border: 5px solid black;
+  height: 512px;
+  width: 512px;
+}
 
 body {
   margin: var(--header-height) 0 0 0;
