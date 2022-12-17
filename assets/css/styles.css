@@ -1,5 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/wotfard');
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -339,6 +341,10 @@ img {
 
 .skills__js {
   width: 80%;
+}
+
+.skill__10{
+  width:10%
 }
 
 .skills__git{
