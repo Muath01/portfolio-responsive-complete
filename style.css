@@ -149,8 +149,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 60vh;
+  /* height: 60vh; */
 
   margin: 0 10rem;
   box-sizing: border-box;
@@ -392,8 +391,6 @@ article .icon {
   justify-content: end;
   flex-direction: column;
   position: relative;
-
-  height: 70vh;
 }
 
 .contact-info-upper-container {
